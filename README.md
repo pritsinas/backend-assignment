@@ -18,7 +18,7 @@ Fields supplied are:
 **The API end-point must:**
 * Support the following filters: 
   * **mmsi** (single or multiple)
-  * **latitude** and **longitude range**
+  * **latitude** and **longitude range** (eg: minLat=1&maxLat=2&minLon=3&maxLon=4)
   * as well as **time interval**.
 * Log incoming requests to a datastore of  your choice (plain text, database, third party service etc.)
 * Limit requests per user to **10/hour**. (Use the request remote IP as a user identifier)
